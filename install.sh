@@ -249,7 +249,7 @@ os_release_detect() {
         ;;
       centos|rocky|rhel)
         # Supported centos/rocky/rhel releases
-        set -- 8 8.8 8.9 9 9.1 9.2
+        set -- 8 8.8 8.9 9 9.1 9.2 9.3 9.4
 
         for item in "$@";
         do
@@ -777,6 +777,8 @@ grpc_collector_deploy() {
   "Linux centos 9"  | \
   "Linux rocky 8.8" | \
   "Linux rocky 8.9" | \
+  "Linux rocky 9.3" | \
+  "Linux rocky 9.4" | \
   "Linux rhel 8"    | \
   "Linux rhel 9"    | \
   "Linux rhel 9.1"  | \
