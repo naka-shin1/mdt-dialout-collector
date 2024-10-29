@@ -21,6 +21,9 @@ project(mdt_dialout_collector)
 # Set Protobuf_DIR
 set(Protobuf_DIR "/usr/local/lib/cmake/protobuf")
 
+# Set gRPC_DIR
+set(gRPC_DIR "/usr/local/lib/cmake/grpc")
+
 # Protobuf
 set(protobuf_MODULE_COMPATIBLE TRUE)
 find_package(Protobuf CONFIG REQUIRED)
