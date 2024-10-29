@@ -18,6 +18,9 @@ find_package(PkgConfig REQUIRED)
 # Project
 project(mdt_dialout_collector)
 
+# Set Protobuf_DIR
+set(Protobuf_DIR "/usr/local/lib/cmake/protobuf")
+
 # Protobuf
 set(protobuf_MODULE_COMPATIBLE TRUE)
 find_package(Protobuf CONFIG REQUIRED)
